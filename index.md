@@ -1,6 +1,5 @@
 # Matthew Brownrigg's CSE 15L Lab Report 😎
-Horizontal rule: 
----
+
 **Hello!** I am Matt, and this is a blog about my labs in *CSE15L Software Tools and Techniques*! 
 
 >Me fr:
