@@ -9,6 +9,7 @@ I'm Matt and this is a blog about my labs in *CSE 15L Software Tools and Techniq
 ![Image](Applay Sos.jpeg)
 
 I am aware of programming in `Java` and `Python`:
+
 ---
 ```
 // Java
