@@ -15,4 +15,4 @@ public static void main(String[] args) {
 
 
 ## Labs
-1. [Lab 1 - Markdown, URLs, Paths, and the Filesystem](https://thinkr3.github.io/cse15l-lab-reports/lab1.html) 
+- [Lab 1 - Markdown, URLs, Paths, and the Filesystem](https://thinkr3.github.io/cse15l-lab-reports/lab1.html) 
