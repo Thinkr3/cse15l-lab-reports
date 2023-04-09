@@ -27,27 +27,27 @@
 
 ## Step 1: Installing VSCode
 1. Go to [VSCode's Website](https://code.visualstudio.com/) and download the latest version of VSCode
-    a. Image
+    - Image
 2. Open a new VSCode instance on your computer. A new tab should look like this!
-    a. Image
+    - Image
 3. On the top menu bar select Terminal > New Terminal, A new tab within VSCode should appear.
-    a. Image
+    - Image
 4. On the right of the terminal tab select the dropdown menu on the the plus sign and select Git Bash.
-    a. Image
+    - Image
 5. You're ready to ssh!
 
 ## Step 2: ssh the Server
 1. On your git bash terminal type the server you want to connect to:
-    a. Image
+    - Image
 2. Then type in the password to your server
-    b. Image
+    - Image
 3. Bam! Connected and ready to code!
 
 ## Step 3: Doing Stuff in the Server
 1. Consult the Important Terminal Commands for cool server sleuthing techniques
 2. cd the server:
-    a. Image
+    - Image
 3. ls the server:
-    a. Image
+    - Image
 4. cat a file:
-    a. Image
+    - Image
