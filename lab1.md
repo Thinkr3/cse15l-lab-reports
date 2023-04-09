@@ -30,9 +30,9 @@
     - Image
 2. Open a new VSCode instance on your computer. A new tab should look like this!
     - Image
-3. On the top menu bar select Terminal > New Terminal, A new tab within VSCode should appear.
+3. On the top menu bar select `Terminal > New Terminal`, A new tab within VSCode should appear.
     - Image
-4. On the right of the terminal tab select the dropdown menu on the the plus sign and select Git Bash.
+4. On the right of the terminal tab select the dropdown menu on the the plus sign and select `Git Bash`.
     - Image
 5. You're ready to ssh!
 
@@ -45,9 +45,9 @@
 
 ## Step 3: Doing Stuff in the Server
 1. Consult the Important Terminal Commands for cool server sleuthing techniques
-2. cd the server:
+2. `cd` the server:
     - Image
-3. ls the server:
+3. `ls` the server:
     - Image
-4. cat a file:
+4. `cat` a file:
     - Image
