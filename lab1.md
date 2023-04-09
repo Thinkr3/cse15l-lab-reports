@@ -18,8 +18,36 @@
 - **git push**: A git action to send commits from one place to another (usually from our computer to Github)
 
 ## Some Important Terminal Commands
-- **cd ~** : Go to home directory
-- **cd <directory\>** : Go to <directory\>
-- **ls <directory\>** : List directories in folder
-- **ls -lat** : List directories in folder, each in a new line
-- **ls -a** : List all hidden directories 
+- **cd ~**: Go to home directory
+- **cd <directory\>**: Go to <directory\>
+- **ls <directory\>**: List directories in folder
+- **ls -lat**: List directories in folder, each in a new line
+- **ls -a**: List all hidden directories 
+- **cat <directory\> <directory\>**: Concatenates the contents of file and pastes into the terminal.
+
+## Step 1: Installing VSCode
+1. Go to [VSCode's Website](https://code.visualstudio.com/) and download the latest version of VSCode
+    a. Image
+2. Open a new VSCode instance on your computer. A new tab should look like this!
+    a. Image
+3. On the top menu bar select Terminal > New Terminal, A new tab within VSCode should appear.
+    a. Image
+4. On the right of the terminal tab select the dropdown menu on the the plus sign and select Git Bash.
+    a. Image
+5. You're ready to ssh!
+
+## Step 2: ssh the Server
+1. On your git bash terminal type the server you want to connect to:
+    a. Image
+2. Then type in the password to your server
+    b. Image
+3. Bam! Connected and ready to code!
+
+## Step 3: Doing Stuff in the Server
+1. Consult the Important Terminal Commands for cool server sleuthing techniques
+2. cd the server:
+    a. Image
+3. ls the server:
+    a. Image
+4. cat a file:
+    a. Image
