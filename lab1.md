@@ -37,9 +37,9 @@
 5. You're ready to ssh!
 
 ## Step 2: ssh the Server
-1. On your git bash terminal type the server you want to connect to:
+1. On your git bash terminal type the server you want to connect to: `ssh user@some.host.com`
     - Image
-2. Then type in the password to your server
+2. Then type in the password to your user
     - Image
 3. Bam! Connected and ready to code!
 
