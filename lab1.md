@@ -18,7 +18,7 @@
 - **git push**: A git action to send commits from one place to another (usually from our computer to Github)
 
 ## Some Important Terminal Commands
-- **cd ~ **: Go to home directory
+- **cd \~**: Go to home directory
 - **cd <directory\>**: Go to <directory\>
 - **ls <directory\>**: List directories in folder
 - **ls -lat**: List directories in folder, each in a new line
