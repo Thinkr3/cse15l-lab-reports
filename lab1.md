@@ -55,7 +55,7 @@ For more information on markdown consult: https://commonmark.org/help/
 3. `ls` the server (Lists all directories) (Example uses -a for hidden files and -lat for displaying files line by line):
     - <img src="https://user-images.githubusercontent.com/45981739/230802778-adec017a-61d0-4640-9912-599b8f5cc02c.png" height="300" width="400">
 4. `cat` a file (Prints the contents of one or more files) (Example prints out the login information file):
-    - ![Image](https://user-images.githubusercontent.com/45981739/230802862-d9643af9-ea4d-4760-b9fe-cbe96db1db45.png)
+    - <img src="https://user-images.githubusercontent.com/45981739/230802862-d9643af9-ea4d-4760-b9fe-cbe96db1db45.png" height="300" width="400">
 5. Remember to close your connection with `Ctrl+D`!
     - ![Image](https://user-images.githubusercontent.com/45981739/230804382-256ec0fa-b8f7-46ca-aabf-73a7313fe6ae.png)
 
