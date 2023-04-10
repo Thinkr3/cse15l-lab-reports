@@ -27,7 +27,7 @@
 
 ## Step 1: Installing VSCode
 1. Go to [VSCode's Website](https://code.visualstudio.com/) and download the latest version of VSCode
-    - Image
+    - ![](https://user-images.githubusercontent.com/45981739/230802731-b38a2ac2-76ff-429d-8e20-16993eadf354.png)
 2. Open a new VSCode instance on your computer. A new tab should look like this!
     - Image
 3. On the top menu bar select `Terminal > New Terminal`, A new tab within VSCode should appear.
@@ -38,16 +38,18 @@
 
 ## Step 2: ssh the Server
 1. On your git bash terminal type the server you want to connect to: `ssh user@some.host.com`
-    - Image
-2. Then type in the password to your user
-    - Image
-3. Bam! Connected and ready to code!
+    - ![](https://user-images.githubusercontent.com/45981739/230802672-de5ea1b6-c480-405a-8b6a-f3ff6496f1c1.png)
+2. Accept the connection between your PC and server
+    - ![](https://user-images.githubusercontent.com/45981739/230802702-7a9b945d-7c25-4760-aafc-eaf26f8c4f6d.png)
+4. Then type in the password to your user
+    - ![](https://user-images.githubusercontent.com/45981739/230802711-c60fdb13-1824-49cc-ad5a-e03451b774b1.png)
+5. Bam! Connected and ready to code!
 
 ## Step 3: Doing Stuff in the Server
 1. Consult the Important Terminal Commands for cool server sleuthing techniques
 2. `cd` the server:
-    - Image
+    - ![](https://user-images.githubusercontent.com/45981739/230802798-b6d603b9-ce80-471a-bbfb-98212347f704.png)
 3. `ls` the server:
-    - Image
+    - ![](https://user-images.githubusercontent.com/45981739/230802778-adec017a-61d0-4640-9912-599b8f5cc02c.png)
 4. `cat` a file:
-    - Image
+    - ![](https://user-images.githubusercontent.com/45981739/230802862-d9643af9-ea4d-4760-b9fe-cbe96db1db45.png)
