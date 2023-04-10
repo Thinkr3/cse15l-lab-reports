@@ -30,13 +30,13 @@ For more information on markdown consult: https://commonmark.org/help/
 
 ## Step 1: Installing VSCode 💻
 1. Go to [VSCode's Website](https://code.visualstudio.com/) and download the latest version of VSCode
-    - <img src="https://user-images.githubusercontent.com/45981739/230802731-b38a2ac2-76ff-429d-8e20-16993eadf354.png" height="300" width="500">
+    - <img src="https://user-images.githubusercontent.com/45981739/230802731-b38a2ac2-76ff-429d-8e20-16993eadf354.png" height="300" width="400">
 2. Open a new VSCode instance on your computer. A new tab should look like this!
-    - <img src="https://user-images.githubusercontent.com/45981739/230804209-d92b5660-9456-424f-9167-1334f0bd398e.png" height="300" width="500">
+    - <img src="https://user-images.githubusercontent.com/45981739/230804209-d92b5660-9456-424f-9167-1334f0bd398e.png" height="300" width="400">
 3. On the top menu bar select `Terminal > New Terminal`, A new tab within VSCode should appear.
-    - <img src="https://user-images.githubusercontent.com/45981739/230804017-1b98157b-0ab6-49dc-bb6e-26e367bff7b9.png" height="300" width="500">
+    - <img src="https://user-images.githubusercontent.com/45981739/230804017-1b98157b-0ab6-49dc-bb6e-26e367bff7b9.png" height="300" width="400">
 4. On the right of the terminal tab select the dropdown menu on the the plus sign and select `Git Bash`.
-    - ![Image](https://user-images.githubusercontent.com/45981739/230804400-4491a669-bf72-46d0-a81f-fa7d4bbf4a70.png)
+    - <img src="https://user-images.githubusercontent.com/45981739/230804400-4491a669-bf72-46d0-a81f-fa7d4bbf4a70.png" height="300" width="400">
 5. You're ready to ssh!
 
 ## Step 2: ssh the Server 👨‍💻
