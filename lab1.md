@@ -26,7 +26,7 @@
 - **cat <directory1\> <directory2\>**: Concatenates the contents of file and pastes into the terminal.
 
 ## Markdown Tips and Tricks 📝
-For more information on markdown consult: https://commonmark.org/help/
+For more information on markdown consult: [commonmark.org](https://commonmark.org/help/)
 
 ## Step 1: Installing VSCode 💻
 1. Go to [VSCode's Website](https://code.visualstudio.com/) and download the latest version of VSCode
