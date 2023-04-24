@@ -97,12 +97,14 @@ class StringServer {
 
 ### String Server Example
 #### Blank Start Image
-- Nothing was called in this image I just called the standard homepage `http://localhost:4000/`
+- Initialization
+    - A String `contents` is initilized and will be kept in memoery as long as the server is active.
+    - Nothing was called in this image I just called the standard homepage `http://localhost:4000`
 - Which methods in your code are called?
     - When the page is loaded with that link, `handleRequest(URI url)` is called.
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
     - An if statement is called that checks the arguments in the URL path.
-    - The first path checks if the path only has a `/` (This is true)
+    - The first path checks if the path only has a `/` (This is true because blank paths have an implcit `/`)
     - This if branch returns the String variable `content`.
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
     - No values where changed in this example call because no queries were added to the path.
