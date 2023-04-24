@@ -6,7 +6,7 @@ I'm Matt and this is a blog about my labs in *CSE 15L Software Tools and Techniq
 
 >Me fr:
 
-![Image](Applay Sos.jpeg)
+![Image](img/Applay Sos.jpeg)
 
 I am aware of programming in `Java` and `Python`:
 
@@ -23,3 +23,4 @@ print("Hello World")
 
 ## Labs
 - [Lab 1 - Markdown, URLs, Paths, and the Filesystem](https://thinkr3.github.io/cse15l-lab-reports/lab1.html) 
+- [Lab 2 - Servers and Bugs](https://thinkr3.github.io/cse15l-lab-reports/lab2.html) 
