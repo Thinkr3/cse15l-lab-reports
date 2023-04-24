@@ -107,5 +107,5 @@ class StringServer {
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
     - No values where changed in this example call because no queries were added to the path.
 
-- <img src="img/blank" height="300" width="450">
+- <img src="img/blank.png" height="300" width="450">
 
