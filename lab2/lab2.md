@@ -1,4 +1,4 @@
-# Lab 1 - Servers and Bugs 🐛
+# Lab 2 - Servers and Bugs 🐛
 ## Server: Server Setup 💻
 ### Server.java 📝
 ```
