@@ -1,5 +1,5 @@
 # Lab 2 - Servers and Bugs 🐛
-## Part 1: Server Setup 💻
+## Part 1: Small Wide Web Server Setup 🕸
 Here's a simple way to create a java web server and have it display text on screen.
 ### Server.java 📝
 ```
@@ -64,7 +64,7 @@ import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
+    // The one bit of state on the server: a String that will be manipulated by
     // various requests.
     String content = "";
 
@@ -130,11 +130,14 @@ class StringServer {
     - The first branch in the if statement checks if the path only has a `/` (This is false) ❌
     - The second branch in the if statement checks if the path has `/add-message` (This is true) ✅
     - Then the branch gets the query using `getQuery()` and parses the content to find the intended user input.
-    - This if branch concludes with appending `Osmanthus wine tastes the same as I remember \n` to the `content` variable. The `\n` is very important because it allows us to append more lines with `/add-message`.
+    - This if branch concludes with appending `"Osmanthus wine tastes the same as I remember \n"` to the `content` variable. The `"\n"` is very important because it allows us to append more lines with `/add-message`.
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-    - The empty string (`""`) in the `content` variable was appended with `Osmanthus wine tastes the same as I remember \n`.
+    - The empty string (`""`) in the `content` variable was appended with `"Osmanthus wine tastes the same as I remember \n"`.
 - <img src="img/first-line.png" height="300" width="500">
 
 #### Finished Image 🖼
-Here's an example of what this program can do d=====(￣▽￣*)b !
+Here's an example of what this program can do *d=====(￣▽￣)b* !
 - <img src="img/zhongli.png" height="300" width="500">
+
+## Part 2: Bugs and Critters 🐜
+
