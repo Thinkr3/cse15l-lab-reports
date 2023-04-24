@@ -1,4 +1,8 @@
 # Lab 2 - Servers and Bugs 🐛
+## Overview
+1. [Small Wide Web Server Setup 🕸](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-1-small-wide-web-server-setup-)
+2. [Bugs and Critters](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-2-bugs-and-critters-)
+3. [Tips and Tricks](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-3-tips-and-tricks-)
 ## Part 1: Small Wide Web Server Setup 🕸
 Here's a simple way to create a java web server and have it display text on screen.
 ### Server.java 📝
