@@ -1,6 +1,6 @@
-# Lab 1 - Servers and Bugs
+# Lab 1 - Servers and Bugs 🐛
 ## Server: Server Setup 💻
-### Server.java
+### Server.java 📝
 ```
 // A simple web server using Java's built-in HttpServer
 
@@ -57,7 +57,7 @@ public class Server {
 }
 ```
 
-### StringServer.java
+### StringServer.java 📝
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -95,8 +95,8 @@ class StringServer {
 }
 ```
 
-### String Server Example
-#### Blank Start Image
+### String Server Example 🧪
+#### Blank Start Image ⬜
 - Initialization
     - A String `contents` is initilized and will be kept in memoery as long as the server is active.
     - Nothing was called in this image I just called the standard homepage `http://localhost:4000`
