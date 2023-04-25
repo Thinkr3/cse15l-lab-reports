@@ -6,6 +6,7 @@
 ## Part 1: Small Wide Web Server Setup 🕸
 Here's a simple way to create a java web server and have it display text on screen.
 ### Server.java 📝
+
 ```
 // A simple web server using Java's built-in HttpServer
 
@@ -61,6 +62,7 @@ public class Server {
     }
 }
 ```
+
 
 ### StringServer.java 📝
 ```
