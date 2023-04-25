@@ -146,31 +146,31 @@ Here's an example of what this program can do **d=====(￣▽￣)b** !
 ## Part 2: Bugs and Critters 🐜
 ### Explanations
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-```
-import static org.junit.Assert.*;
-import org.junit.*;
+    ```
+    import static org.junit.Assert.*;
+    import org.junit.*;
 
-public class ArrayTests {
-    @Test 
-    public void testAverageWithSameLowest() {
-        double[] input = {5.0, 3.0, 3.0};
-        assertEquals(4.0, ArrayExamples.averageWithoutLowest(input), 1);
+    public class ArrayTests {
+        @Test 
+        public void testAverageWithSameLowest() {
+            double[] input = {5.0, 3.0, 3.0};
+            assertEquals(4.0, ArrayExamples.averageWithoutLowest(input), 1);
+        }
     }
-}
-```
+    ```
 - An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-```
-import static org.junit.Assert.*;
-import org.junit.*;
+    ```
+    import static org.junit.Assert.*;
+    import org.junit.*;
 
-public class ArrayTests {
-    @Test 
-    public void testAverageWithDifferentValues() {
-        double[] input = {5.0, 15.0, 3.0};
-        assertEquals(10.0, ArrayExamples.averageWithoutLowest(input), 1);
+    public class ArrayTests {
+        @Test 
+        public void testAverageWithDifferentValues() {
+            double[] input = {5.0, 15.0, 3.0};
+            assertEquals(10.0, ArrayExamples.averageWithoutLowest(input), 1);
+        }
     }
-}
-```
+    ```
 - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
     - The buggy program's symptom is an incorrect average calculation. 
     - **Buggy**
