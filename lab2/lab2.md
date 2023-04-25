@@ -7,7 +7,6 @@
 Here's a simple way to create a java web server and have it display text on screen.
 ### Server.java 📝
 
-
 ```
 // A simple web server using Java's built-in HttpServer
 
@@ -221,4 +220,14 @@ Here's an example of what this program can do **d=====(￣▽￣)b** !
 - Briefly describe why the fix addresses the issue.
     - This fix replaces lowest with an index instead of the lowest value to prevent duplicates being ignored. This means that the foreach loops were also replaced with indexed for loops to keep track of the lowest value's index. There if statement was also replaced to measure when the for loop reaches the lowest value and promptly skips that index. This fix should allow us to remove the lowest value but not remove duplicate values.
 
-
+## Part 3: Tips and Tricks 🎯
+- You can `cat` webpages by just using `curl`!
+    - <img src="img/curl.png" height="400" width="500">
+- You can clone remotely by using:
+    - `git clone <your-repository-url-for-your-fork>`
+- Starting a web server in Java is easy just consult [Part 1](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-1-small-wide-web-server-setup-)!
+- To build a Java project in terminal you have to the classpath command `-cp`
+    - `$ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java`
+    - `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests`
+- The `*` icon allows mutiple all files in the directory to be called.
+    - It's called a *glob*, *wildcard*, or *pattern*!
