@@ -234,3 +234,4 @@ Here's an example of what this program can do **d=====(￣▽￣)b** !
     - `java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests`
 - The `*` icon allows mutiple all files in the directory to be called.
     - It's called a *glob*, *wildcard*, or *pattern*!
+- The paths on URL have a lot of functions that help web servers run commands and queries. They are very easy to use and provide a lot of versatility when desining websites and webservers. 
