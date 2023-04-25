@@ -140,8 +140,82 @@ class StringServer {
 - <img src="img/first-line.png" height="300" width="500">
 
 #### Finished Image 🖼
-Here's an example of what this program can do *d=====(￣▽￣)b* !
+Here's an example of what this program can do **d=====(￣▽￣)b** !
 - <img src="img/zhongli.png" height="300" width="500">
 
 ## Part 2: Bugs and Critters 🐜
+### Explanations
+- A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+    @Test 
+    public void testAverageWithSameLowest() {
+        double[] input = {5.0, 3.0, 3.0};
+        assertEquals(4.0, ArrayExamples.averageWithoutLowest(input), 1);
+    }
+}
+```
+- An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+    @Test 
+    public void testAverageWithDifferentValues() {
+        double[] input = {5.0, 15.0, 3.0};
+        assertEquals(10.0, ArrayExamples.averageWithoutLowest(input), 1);
+    }
+}
+```
+- The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+    - The buggy program's symptom is an incorrect average calculation. 
+    - **Buggy**
+    - <img src="img/error.png">
+    - **Non Failure**
+    - <img src="img/passed.png">
+- The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+    - **Buggy Code**
+        ```
+        public class ArrayExamples {
+            static double averageWithoutLowest(double[] arr) {
+                if(arr.length < 2) { return 0.0; }
+                double lowest = arr[0];
+                for(double num: arr) {
+                    if(num < lowest) { lowest = num; }
+                }
+            
+                double sum = 0;
+                for(double num: arr) {
+                    if(num != lowest) { sum += num; }
+                }
+                return sum / (arr.length - 1);
+            }
+        }
+        ```
+    - **The Fix**
+        ```
+        public class ArrayExamples {
+            static double averageWithoutLowest(double[] arr) {
+                if(arr.length < 2) { return 0.0; }
+                int lowest = 0;
+                for(int i = 0; i < arr.length; i++) {
+                    if(num < lowest) { lowest = i; }
+                }
+            
+                double sum = 0;
+                for(int i = 0; i < arr.length; i++) {
+                    if(i == lowest) { continue; }
+                    sum += num;
+                }
+                return sum / (arr.length - 1);
+            }
+        }
+        ```
+- Briefly describe why the fix addresses the issue.
+    - This fix replaces lowest with an index instead of the lowest value to prevent duplicates being ignored. This means that the foreach loops were also replaced with indexed for loops to keep track of the lowest value's index. There if statement was also replaced to measure when the for loop reaches the lowest value and promptly skips that index. This fix should allow us to remove the lowest value but not remove duplicate values.
+
 
