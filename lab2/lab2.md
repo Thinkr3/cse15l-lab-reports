@@ -1,10 +1,13 @@
 # Lab 2 - Servers and Bugs 🐛
 ## Overview
 1. [Small Wide Web Server Setup 🕸](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-1-small-wide-web-server-setup-)
-2. [Bugs and Critters](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-2-bugs-and-critters-)
-3. [Tips and Tricks](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-3-tips-and-tricks-)
+2. [Bugs and Critters 🐜](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-2-bugs-and-critters-)
+3. [Tips and Tricks 🎯](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-3-tips-and-tricks-)
+
 ## Part 1: Small Wide Web Server Setup 🕸
+
 Here's a simple way to create a java web server and have it display text on screen.
+
 ### Server.java 📝
 
 ```
@@ -222,7 +225,7 @@ Here's an example of what this program can do **d=====(￣▽￣)b** !
 
 ## Part 3: Tips and Tricks 🎯
 - You can `cat` webpages by just using `curl`!
-    - <img src="img/curl.png" height="400" width="500">
+    - <img src="img/curl.png" height="400" width="650">
 - You can clone remotely by using:
     - `git clone <your-repository-url-for-your-fork>`
 - Starting a web server in Java is easy just consult [Part 1](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html#part-1-small-wide-web-server-setup-)!
