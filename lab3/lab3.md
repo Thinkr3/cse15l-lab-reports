@@ -1,7 +1,7 @@
 # Lab 3 - More about Less 💸
 
 ## Interesting Command Line Arguments for `less` 📚 ##
-
+Note to grader I forgot to read the instructions and now have 2 of my own examples alongside the 2 actual required examples.
 ---
 ### Line Number `-N` Poetry 🔢###
 
