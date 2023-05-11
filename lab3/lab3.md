@@ -4,7 +4,7 @@
 1. [Line Number `-N` Poetry 🔢](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#line-number--n-poetry-)
 2. [Search Pattern `/` Sleuthing 🔎](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#search-pattern--sleuthing-)
 3. [Real-time `+F` Chicanery ⏱](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#real-time-f-chicanery-)
-4. [Editing Files `v` Final Boss 😈] (https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#line-number--n-poetry-)
+4. [Editing Files `v` Final Boss 😈](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#line-number--n-poetry-)
 
 ## Interesting Command Line Arguments for `less` 📚 ##
 Note to grader: I got a little to distracted and now have 2 of my own examples alongside the 2 actual required examples.
@@ -145,6 +145,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
     - This could allow you to add addendums to files and view their changes in real time! Now we can wait for 20+ old files to be updated 😎.
         - `less +F ./technical/government/Media/Philly_Lawyers.txt`
+        
         ```
         ... # (Omitted 100 lines for brevity)
         commitment to those who need but cannot afford legal services. That
@@ -154,7 +155,9 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
 
         Waiting for data... (interrupt to abort)
         ```
+
         - `less +F ./technical/911report/preface.txt` if we wait long enough they might update this book...
+
         ```
             this process with strong opinions about what would work. All of us have had to
                     pause, reflect, and sometimes change our minds as we studied these problems and
