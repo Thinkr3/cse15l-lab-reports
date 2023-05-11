@@ -98,9 +98,9 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         - Note: I used `||` because the first line exits with an error code, if this code succeeded I would've used `&&`. I would also change `2>` to `>`. Anyways, SEMICOLONS!!! **╰（‵□′）╯**
     - Use this to search *looong* documents for the important bits. 🍬
         - `less -pgene ./technical/biomed/rr37.txt`
-        - <img src="img/gene-search.png" height="300" width="500">
+        - <img src="img/gene-search.png" height="200" width="500">
         - `less ./technical/911report/chapter-1.txt` then `/flag`
-        - <img src="img/gene-search.png" height="100" width="600">
+        - <img src="img/flag-search.png" height="100" width="600">
 - Source: [phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux)
 
 ## Real-time `+F` Chicanery ⏱ ##
