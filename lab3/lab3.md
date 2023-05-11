@@ -127,7 +127,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         Added a semicolon to make hello world actually run...
         Waiting for data... (interrupt to abort)
         ```
-        
+
     - I use this one to check my stock options while programming on a terminal 😎
         - `less +F stocks.txt` will show
         ```
@@ -205,6 +205,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         ```
     - We can now edit the ./technical files remotely 🎉!
         - `less ./technical/government/Media/Philly_Lawyers.txt` then `v`
+
         ```
         ... # (Omitted 100 lines for brevity)
         is a commitment that we are duty-bound to honor and it is a
@@ -215,8 +216,10 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
 
         (END)
         ```
+
         - `less technical/biomed/1471-2490-3-2.txt` then `v`
         - Deleted everything except the first 5 lines
+
         ```
         Background
         The application of UHCT for the diagnosis of acute
@@ -225,6 +228,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         and accurate determination of the presence of stone in the
         (END)
         ```
+        
 - Learn more [linuxhandbook.com/less-command](https://linuxhandbook.com/less-command/)
 - How to exit Vim: (stackoverflow.com/questions/11828270/how-do-i-exit-vim)[https://stackoverflow.com/questions/11828270/how-do-i-exit-vim]
     - Spent too long just trying to quit Vim. (T_T)
