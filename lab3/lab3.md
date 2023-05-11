@@ -87,6 +87,7 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
 ## Search Pattern `/` Sleuthing 🔎 ##
 
 - `/` can help you find occurences of words while you are "lessing" a document! (Using `-p<pattern>` also works!)
+- Use `p` to look at previous occurences and `n` to look at the next occurence.
     - You can use this to find repeated words in text files!
         - `less hamlet.txt` then while in the less screen `/sleep`
         - <img src="img/high-hamlet.png" height="300" width="500">
@@ -95,6 +96,11 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         - `javac Hello.java 2> error.txt || less error.txt` then while in less `/error`
         - <img src="img/java-error.png" height="100" width="400">
         - Note: I used `||` because the first line exits with an error code, if this code succeeded I would've used `&&`. I would also change `2>` to `>`. Anyways, SEMICOLONS!!! **╰（‵□′）╯**
+    - Use this to search *looong* documents for the important bits. 🍬
+        - `less -pgene ./technical/biomed/rr37.txt`
+        - <img src="img/gene-search.png" height="300" width="500">
+        - `less ./technical/911report/chapter-1.txt` then `/flag`
+        - <img src="img/gene-search.png" height="100" width="600">
 - Source: [phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux)
 
 ## Real-time `+F` Chicanery ⏱ ##
