@@ -118,7 +118,6 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         Waiting for data... (interrupt to abort)
         ```
         - When I make my first few changes the less screen will update!
-
         ```
         Ver 0.1
         Added a hello world program!
@@ -147,7 +146,6 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
     - This could allow you to add addendums to files and view their changes in real time! Now we can wait for 20+ old files to be updated 😎.
         - `less +F ./technical/government/Media/Philly_Lawyers.txt`
-
         ```
         ... # (Omitted 100 lines for brevity)
         commitment to those who need but cannot afford legal services. That
@@ -159,7 +157,6 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         ```
 
         - `less +F ./technical/911report/preface.txt` if we wait long enough they might update this book...
-
         ```
             this process with strong opinions about what would work. All of us have had to
                     pause, reflect, and sometimes change our minds as we studied these problems and
@@ -205,7 +202,6 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         ```
     - We can now edit the ./technical files remotely 🎉!
         - `less ./technical/government/Media/Philly_Lawyers.txt` then `v`
-
         ```
         ... # (Omitted 100 lines for brevity)
         is a commitment that we are duty-bound to honor and it is a
@@ -219,7 +215,6 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
 
         - `less technical/biomed/1471-2490-3-2.txt` then `v`
         - Deleted everything except the first 5 lines
-
         ```
         Background
         The application of UHCT for the diagnosis of acute
