@@ -34,11 +34,11 @@
 - `/` can help you find occurences of words while you are "lessing" a document!
     - You can use this to find repeated words in text files!
         - `less hamlet.txt` then while in the less screen `/sleep`
-        - [!img](img/high-hamlet.png)
+        - <img src="img/high-hamlet.png" height="300" width="500">
         - I had to paste an image because highlights cannot appear on code blocks :/
     - You can also make your debuging life easier by finding specific errors.
         - `javac Hello.java 2> error.txt || less error.txt` then while in less `/error`
-        - [!img](img/java-error.png)
+        - <img src="img/java-error.png" height="300" width="500">
         - Note: I used `||` because the first line exits with an error code, if this code succeeded I would've used `&&`. I would also change `2>` to `>`. Anyways, SEMICOLONS!!! **╰（‵□′）╯**
 
     
