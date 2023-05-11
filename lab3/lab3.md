@@ -160,16 +160,17 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
             ```
 
         - `less +F ./technical/911report/preface.txt` if we wait long enough they might update this book...
-        ```
-            this process with strong opinions about what would work. All of us have had to
-                    pause, reflect, and sometimes change our minds as we studied these problems and
-                    considered the views of others. We hope our report will encourage our fellow
-                    citizens to study, reflect-and act.
-            Thomas H. Kean, chair
-            Lee H. Hamilton, vice chair
+        
+            ```
+                this process with strong opinions about what would work. All of us have had to
+                        pause, reflect, and sometimes change our minds as we studied these problems and
+                        considered the views of others. We hope our report will encourage our fellow
+                        citizens to study, reflect-and act.
+                Thomas H. Kean, chair
+                Lee H. Hamilton, vice chair
 
-        Waiting for data... (interrupt to abort)
-        ```
+            Waiting for data... (interrupt to abort)
+            ```
 
 - Source: [ChatGPT](https://chat.openai.com/)
 
@@ -205,27 +206,29 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         ```
     - We can now edit the ./technical files remotely 🎉!
         - `less ./technical/government/Media/Philly_Lawyers.txt` then `v`
-        ```
-        ... # (Omitted 100 lines for brevity)
-        is a commitment that we are duty-bound to honor and it is a
-        commitment that we can and will uphold. The journey along this path
-        begins today " he concluded.
+        
+            ```
+            ... # (Omitted 100 lines for brevity)
+            is a commitment that we are duty-bound to honor and it is a
+            commitment that we can and will uphold. The journey along this path
+            begins today " he concluded.
 
-        Just vandalized this file ~_~
+            Just vandalized this file ~_~
 
-        (END)
-        ```
+            (END)
+            ```
 
         - `less technical/biomed/1471-2490-3-2.txt` then `v`
         - Deleted everything except the first 5 lines
-        ```
-        Background
-        The application of UHCT for the diagnosis of acute
-        ureteric colic has positively influenced the practice of
-        urology and uro-radiology. The technology allows the rapid
-        and accurate determination of the presence of stone in the
-        (END)
-        ```
+        
+            ```
+            Background
+            The application of UHCT for the diagnosis of acute
+            ureteric colic has positively influenced the practice of
+            urology and uro-radiology. The technology allows the rapid
+            and accurate determination of the presence of stone in the
+            (END)
+            ```
 
 - Learn more [linuxhandbook.com/less-command](https://linuxhandbook.com/less-command/)
 - How to exit Vim: [stackoverflow.com/questions/11828270/how-do-i-exit-vim](https://stackoverflow.com/questions/11828270/how-do-i-exit-vim)
