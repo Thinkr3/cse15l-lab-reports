@@ -148,15 +148,16 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
     - This could allow you to add addendums to files and view their changes in real time! Now we can wait for 20+ old files to be updated 😎.
         - `less +F ./technical/government/Media/Philly_Lawyers.txt`
-        ```
-        ... # (Omitted 100 lines for brevity)
-        commitment to those who need but cannot afford legal services. That
-        is a commitment that we are duty-bound to honor and it is a
-        commitment that we can and will uphold. The journey along this path
-        begins today " he concluded.
+        
+            ```
+            ... # (Omitted 100 lines for brevity)
+            commitment to those who need but cannot afford legal services. That
+            is a commitment that we are duty-bound to honor and it is a
+            commitment that we can and will uphold. The journey along this path
+            begins today " he concluded.
 
-        Waiting for data... (interrupt to abort)
-        ```
+            Waiting for data... (interrupt to abort)
+            ```
 
         - `less +F ./technical/911report/preface.txt` if we wait long enough they might update this book...
         ```
