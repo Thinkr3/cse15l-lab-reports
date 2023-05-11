@@ -171,7 +171,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         Waiting for data... (interrupt to abort)
         ```
 
-- Source: (ChatGPT)[https://chat.openai.com/]
+- Source: [ChatGPT](https://chat.openai.com/)
 
 
 ## Editing Files `v` Final Boss 😈 ##
@@ -228,7 +228,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         and accurate determination of the presence of stone in the
         (END)
         ```
-        
+
 - Learn more [linuxhandbook.com/less-command](https://linuxhandbook.com/less-command/)
 - How to exit Vim: (stackoverflow.com/questions/11828270/how-do-i-exit-vim)[https://stackoverflow.com/questions/11828270/how-do-i-exit-vim]
     - Spent too long just trying to quit Vim. (T_T)
