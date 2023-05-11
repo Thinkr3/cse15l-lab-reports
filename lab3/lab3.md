@@ -2,6 +2,7 @@
 
 ## Interesting Command Line Arguments for `less` 📚 ##
 
+### Line Number `-N` Poetry 🔢###
 - `-N` adds line numbers to each line so you can keep track of where you are in your file!
     - This can be very helpful for you impromptu poetry sessions on your remote server
         - `less -N hamlet.txt`
@@ -31,7 +32,10 @@
         Hello.java (END)
         ```
         - No semicolon on line 3!!! **(╯‵□′)╯︵┻━┻**
-- `/` can help you find occurences of words while you are "lessing" a document!
+- Source: [https://linuxize.com/post/less-command-in-linux/](https://linuxize.com/post/less-command-in-linux/)
+
+### Search Pattern `/` Sleuthing 🔎###
+- `/` can help you find occurences of words while you are "lessing" a document! (Using `-p<pattern>` also works!)
     - You can use this to find repeated words in text files!
         - `less hamlet.txt` then while in the less screen `/sleep`
         - <img src="img/high-hamlet.png" height="300" width="500">
@@ -40,6 +44,9 @@
         - `javac Hello.java 2> error.txt || less error.txt` then while in less `/error`
         - <img src="img/java-error.png" height="100" width="500">
         - Note: I used `||` because the first line exits with an error code, if this code succeeded I would've used `&&`. I would also change `2>` to `>`. Anyways, SEMICOLONS!!! **╰（‵□′）╯**
+- Source: [https://phoenixnap.com/kb/less-command-in-linux] (https://phoenixnap.com/kb/less-command-in-linux)
+
+### Real-time `+F` Chicanery ⏱###
 - `+F` can help you see your file update in real-time!
     - This can be used to keep an up to date log file to measure changes in real time, git!
         - `less +F updates.txt` is empty until I start making changes
@@ -48,11 +55,11 @@
         ```
         - When I make my first few changes the less screen will update!
         ```
-        - Ver 0.1
-        + Added a hello world program!
+        Ver 0.1
+        Added a hello world program!
 
-        - Ver 0.2
-        + Added a semicolon to make hello world actually run...
+        Ver 0.2
+        Added a semicolon to make hello world actually run...
         Waiting for data... (interrupt to abort)
         ```
     - I use this one to check my stock options while programming on a terminal 😎
@@ -72,7 +79,34 @@
         Waiting for data... (interrupt to abort)
         ```
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
-    - 
+- Source: (ChatGPT)[https://chat.openai.com/]
+
+### Editing Files `v` Final Boss 😈 ###
+- Although less is read-only, pressing v while in less opens vim.
+    - Now I can fix that pesky semicolon in my hello program on a remote computer
+        - `less Hello.java` then press `v`
+        ```
+        class Hello {
+            public static void main(String[] args) {
+                System.out.println("Hello");
+            }
+        }                                                                                                       Hello.java [dos] (20:37 10/05/2023)
+        3,29-43 All"Hello.java" [noeol][dos] 5L, 94B
+        ```
+        - Note: omitted `~` which are used to fill up the rest of the screen
+        - Added the semicolon!!!
+    - I can also update my stock portfolio with the proper values now
+        - `less stocks.txt` then press `v`
+        ```
+        Apple Inc. $173.60
+        Microsoft. $312.31
+        Amazon. $110.19
+        Circuit City. <BANKRUPT>
+        Dogecoin. $0.08
+        stocks.txt [dos] (21:43 10/0 2023)
+        5,1 All"stocks.txt" [dos] 5L, 100B
+        ```
+- Learn more [here](https://linuxhandbook.com/less-command/#bonus-tip-edit-a-file-with-less-command-in-linux)
 
 
     
