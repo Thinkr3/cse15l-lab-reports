@@ -230,7 +230,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         ```
 
 - Learn more [linuxhandbook.com/less-command](https://linuxhandbook.com/less-command/)
-- How to exit Vim: (stackoverflow.com/questions/11828270/how-do-i-exit-vim)[https://stackoverflow.com/questions/11828270/how-do-i-exit-vim]
+- How to exit Vim: [stackoverflow.com/questions/11828270/how-do-i-exit-vim](https://stackoverflow.com/questions/11828270/how-do-i-exit-vim)
     - Spent too long just trying to quit Vim. (T_T)
 
 
