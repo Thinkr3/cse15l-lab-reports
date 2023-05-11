@@ -38,8 +38,42 @@
         - I had to paste an image because highlights cannot appear on code blocks :/
     - You can also make your debuging life easier by finding specific errors.
         - `javac Hello.java 2> error.txt || less error.txt` then while in less `/error`
-        - <img src="img/java-error.png" height="300" width="500">
+        - <img src="img/java-error.png" height="100" width="500">
         - Note: I used `||` because the first line exits with an error code, if this code succeeded I would've used `&&`. I would also change `2>` to `>`. Anyways, SEMICOLONS!!! **╰（‵□′）╯**
+- `+F` can help you see your file update in real-time!
+    - This can be used to keep an up to date log file to measure changes in real time, git!
+        - `less +F updates.txt` is empty until I start making changes
+        ```
+        Waiting for data... (interrupt to abort)
+        ```
+        - When I make my first few changes the less screen will update!
+        ```
+        - Ver 0.1
+        + Added a hello world program!
+
+        - Ver 0.2
+        + Added a semicolon to make hello world actually run...
+        Waiting for data... (interrupt to abort)
+        ```
+    - I use this one to check my stock options while programming on a terminal 😎
+        - `less +F stocks.txt` will show
+        ```
+        Apple Inc. $173.60
+        Microsoft. $312.31
+        Amazon. $110.19
+        Waiting for data... (interrupt to abort)
+        ```
+        - But if I buy stocks in Circuit City my stocks.txt will update automatically!
+        ```
+        Apple Inc. $173.60
+        Microsoft. $312.31
+        Amazon. $110.19
+        Circuit City. $0.01
+        Waiting for data... (interrupt to abort)
+        ```
+        - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
+    - 
+
 
     
 
