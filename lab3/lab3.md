@@ -119,14 +119,15 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         ```
 
         - When I make my first few changes the less screen will update!
-        ```
-        Ver 0.1
-        Added a hello world program!
+        
+            ```
+            Ver 0.1
+            Added a hello world program!
 
-        Ver 0.2
-        Added a semicolon to make hello world actually run...
-        Waiting for data... (interrupt to abort)
-        ```
+            Ver 0.2
+            Added a semicolon to make hello world actually run...
+            Waiting for data... (interrupt to abort)
+            ```
 
     - I use this one to check my stock options while programming on a terminal 😎
         - `less +F stocks.txt` will show
