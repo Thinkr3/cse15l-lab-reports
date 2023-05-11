@@ -34,6 +34,53 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         Hello.java (END)
         ```
         - No semicolon on line 3!!! **(╯‵□′)╯︵┻━┻**
+    - This also works on *really* long files so you don't get lost reading them. 😴
+        - `less -N ./technical/911report/preface.txt`
+        ```
+        1
+        2
+        3
+        4             PREFACE
+        5             We present the narrative of this report and the recommendations that flow from it to
+        6                 the President of the United States, the United States Congress, and the American
+        7                 people for their consideration. Ten Commissioners-five Republicans and five
+        8                 Democrats chosen by elected leaders from our nation's capital at a time of great
+        9                 partisan division-have come together to present this report without dissent.
+        ...
+        103               considered the views of others. We hope our report will encourage our fellow
+        104               citizens to study, reflect-and act.
+        105             Thomas H. Kean, chair
+        106             Lee H. Hamilton, vice chair
+        107
+        108
+        (END)
+        ```
+        - Another example:
+        - `less -N ./technical/government/Media/Philly_Lawyers.txt`
+        ```
+        1
+        2
+        3
+        4
+        5 Business Wire
+        6
+        7 Philly Lawyers Lead in Pro Bono But Need to Do More
+        8 Friday, June 28, 2002
+        9 PHILADELPHIA--(BUSINESS WIRE)--June 29, 2002--Philadelphia
+        10 lawyers have reason to be proud of their collective "commitment to
+        11 make legal services available to the poor and needy" in the region
+        12 but the "justice system still remains closed to many" and much more
+        13 needs to be done.
+        ...
+        82 commitment that we can and will uphold. The journey along this path
+        83 begins today " he concluded.
+        84
+        85
+        86
+        87
+        (END)
+        ```
+        - I cut some parts of this file because it's long...
 - Source: [linuxize.com](https://linuxize.com/post/less-command-in-linux/)
 
 
