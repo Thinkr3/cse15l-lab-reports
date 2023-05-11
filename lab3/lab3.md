@@ -5,7 +5,7 @@
 - `-N` adds line numbers to each line so you can keep track of where you are in your file!
     - This can be very helpful for you impromptu poetry sessions on your remote server
         - `less -N hamlet.txt`
-        - ``` 
+        ``` 
         1 To be, or not to be, that is the question:
         2 Whether 'tis nobler in the mind to suffer
         3 The slings and arrows of outrageous fortune,
