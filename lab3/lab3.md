@@ -118,6 +118,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         Waiting for data... (interrupt to abort)
         ```
         - When I make my first few changes the less screen will update!
+
         ```
         Ver 0.1
         Added a hello world program!
@@ -126,6 +127,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         Added a semicolon to make hello world actually run...
         Waiting for data... (interrupt to abort)
         ```
+        
     - I use this one to check my stock options while programming on a terminal 😎
         - `less +F stocks.txt` will show
         ```
@@ -145,7 +147,7 @@ Note to grader: I got a little to distracted and now have 2 of my own examples a
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
     - This could allow you to add addendums to files and view their changes in real time! Now we can wait for 20+ old files to be updated 😎.
         - `less +F ./technical/government/Media/Philly_Lawyers.txt`
-        
+
         ```
         ... # (Omitted 100 lines for brevity)
         commitment to those who need but cannot afford legal services. That
