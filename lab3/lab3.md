@@ -6,8 +6,8 @@
 3. [Real-time `+F` Chicanery ⏱](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#real-time-f-chicanery-)
 4. [Editing Files `v` Final Boss 😈](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#line-number--n-poetry-)
 
-## Interesting Command Line Arguments for `less` 📚 ##
-Note to grader: I got a little to distracted and now have 2 of my own examples alongside the 2 actual required examples.
+## Interesting Commands for `less` 📚 ##
+Note to grader: I got a little too distracted and now have 2 of my own examples alongside the 2 actual required examples.
 <figure class="wp-block-table is-style-stripes"><table class="has-fixed-layout"><thead><tr><th><strong>Shortcuts</strong></th><th><strong>Action</strong></th></tr></thead><tbody><tr><td><strong>Down Arrow, Enter, e, j</strong></td><td>One <strong>line</strong> forward.</td></tr><tr><td><strong>Up Arrow, y, k</strong></td><td>One <strong>line</strong> backward.</td></tr><tr><td><strong>Space bar, Page Down</strong></td><td>One <strong>page</strong> forward.</td></tr><tr><td><strong>Page Up, b</strong></td><td>One <strong>page </strong>backward.</td></tr><tr><td><strong>Right Arrow</strong></td><td>Scroll <strong>right</strong>.</td></tr><tr><td><strong>Left Arrow</strong></td><td>Scroll <strong>left</strong>.</td></tr><tr><td><strong>Home, g</strong></td><td>Jump to the <strong>beginning</strong> of the file.</td></tr><tr><td><strong>End, G</strong></td><td>Jump to the <strong>end</strong> of the file.</td></tr><tr><td><strong>/[string]</strong></td><td>Search <strong>forward</strong> for the specified string.</td></tr><tr><td><strong>?[string]</strong></td><td>Search <strong>backward</strong> for the specified string.</td></tr><tr><td><strong>n</strong></td><td><strong>Next</strong> match during a search.</td></tr><tr><td><strong>N</strong></td><td><strong>Previous</strong> match during a search.</td></tr><tr><td><strong>q</strong></td><td>Quit <strong>less</strong>.</td></tr></tbody></table></figure>
 
 Handy Table from: [https://phoenixnap.com/kb/less-command-in-linux](https://phoenixnap.com/kb/less-command-in-linux)
