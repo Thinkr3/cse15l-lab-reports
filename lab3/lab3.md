@@ -1,7 +1,13 @@
 # Lab 3 - More about Less 💸
 
+## Overview
+1. [Line Number `-N` Poetry 🔢](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#line-number--n-poetry-)
+2. [Search Pattern `/` Sleuthing 🔎](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#search-pattern--sleuthing-)
+3. [Real-time `+F` Chicanery ⏱](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#real-time-f-chicanery-)
+4. [Editing Files `v` Final Boss 😈] (https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html#line-number--n-poetry-)
+
 ## Interesting Command Line Arguments for `less` 📚 ##
-Note to grader I forgot to read the instructions and now have 2 of my own examples alongside the 2 actual required examples.
+Note to grader: I got a little to distracted and now have 2 of my own examples alongside the 2 actual required examples.
 
 ## Line Number `-N` Poetry 🔢 ##
 
@@ -81,7 +87,7 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         (END)
         ```
         - I cut some parts of this file because it's long...
-- Source: [linuxize.com](https://linuxize.com/post/less-command-in-linux/)
+- Source: [linuxize.com/post/less-command-in-linux/](https://linuxize.com/post/less-command-in-linux/)
 
 
 ## Search Pattern `/` Sleuthing 🔎 ##
@@ -101,7 +107,7 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         - <img src="img/gene-search.png" height="200" width="500">
         - `less ./technical/911report/chapter-1.txt` then `/flag`
         - <img src="img/flag-search.png" height="100" width="600">
-- Source: [phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux)
+- Source: [phoenixnap.com/kb/less-command-in-linux](https://phoenixnap.com/kb/less-command-in-linux)
 
 ## Real-time `+F` Chicanery ⏱ ##
 
@@ -137,12 +143,37 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         Waiting for data... (interrupt to abort)
         ```
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
+    - This could allow you to add addendums to files and view their changes in real time! Now we can wait for 20+ old files to be updated 😎.
+        - `less +F ./technical/government/Media/Philly_Lawyers.txt`
+        ```
+        ... # (Omitted 100 lines for brevity)
+        commitment to those who need but cannot afford legal services. That
+        is a commitment that we are duty-bound to honor and it is a
+        commitment that we can and will uphold. The journey along this path
+        begins today " he concluded.
+
+        Waiting for data... (interrupt to abort)
+        ```
+        - `less +F ./technical/911report/preface.txt` if we wait long enough they might update this book...
+        ```
+            this process with strong opinions about what would work. All of us have had to
+                    pause, reflect, and sometimes change our minds as we studied these problems and
+                    considered the views of others. We hope our report will encourage our fellow
+                    citizens to study, reflect-and act.
+            Thomas H. Kean, chair
+            Lee H. Hamilton, vice chair
+
+        Waiting for data... (interrupt to abort)
+        ```
+
 - Source: (ChatGPT)[https://chat.openai.com/]
 
 
 ## Editing Files `v` Final Boss 😈 ##
 
-- Although less is read-only, pressing v while in less opens vim.
+- Although less is read-only, pressing `v` while in less opens Vim.
+- Press `s` while in Vim to start editting.
+- To exit Vim use `Esc` + `:wq!` to save changes or `Esc` + `:qa!` to save without changes.
     - Now I can fix that pesky semicolon in my hello program on a remote computer
         - `less Hello.java` then press `v`
         ```
@@ -159,7 +190,7 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
     - I can also update my stock portfolio with the proper values now
         - `less stocks.txt` then press `v`
         ```
-        Apple Inc. $173.60
+        Apple Inc. $403.60
         Microsoft. $312.31
         Amazon. $110.19
         Circuit City. <BANKRUPT>
@@ -167,7 +198,31 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         stocks.txt [dos] (21:43 10/0 2023)
         "stocks.txt" [dos] 5L, 100B
         ```
-- Learn more [linuxhandbook.com](https://linuxhandbook.com/less-command/)
+    - We can now edit the ./technical files remotely 🎉!
+        - `less ./technical/government/Media/Philly_Lawyers.txt` then `v`
+        ```
+        ... # (Omitted 100 lines for brevity)
+        is a commitment that we are duty-bound to honor and it is a
+        commitment that we can and will uphold. The journey along this path
+        begins today " he concluded.
+
+        Just vandalized this file ~_~
+
+        (END)
+        ```
+        - `less technical/biomed/1471-2490-3-2.txt` then `v`
+        - Deleted everything except the first 5 lines
+        ```
+        Background
+        The application of UHCT for the diagnosis of acute
+        ureteric colic has positively influenced the practice of
+        urology and uro-radiology. The technology allows the rapid
+        and accurate determination of the presence of stone in the
+        (END)
+        ```
+- Learn more [linuxhandbook.com/less-command](https://linuxhandbook.com/less-command/)
+- How to exit Vim: (stackoverflow.com/questions/11828270/how-do-i-exit-vim)[https://stackoverflow.com/questions/11828270/how-do-i-exit-vim]
+    - Spent too long just trying to quit Vim. (T_T)
 
 
     
