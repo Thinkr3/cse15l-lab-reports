@@ -2,11 +2,11 @@
 
 ## Interesting Command Line Arguments for `less` 📚 ##
 Note to grader I forgot to read the instructions and now have 2 of my own examples alongside the 2 actual required examples.
----
-### Line Number `-N` Poetry 🔢###
+
+## Line Number `-N` Poetry 🔢 ##
 
 - `-N` adds line numbers to each line so you can keep track of where you are in your file!
-    - This can be very helpful for you impromptu poetry sessions on your remote server
+    - This can be very helpful for your impromptu poetry sessions on your remote server
         - `less -N hamlet.txt`
         ``` 
         1 To be, or not to be, that is the question:
@@ -36,8 +36,8 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         - No semicolon on line 3!!! **(╯‵□′)╯︵┻━┻**
 - Source: [linuxize.com](https://linuxize.com/post/less-command-in-linux/)
 
----
-### Search Pattern `/` Sleuthing 🔎###
+
+## Search Pattern `/` Sleuthing 🔎 ##
 
 - `/` can help you find occurences of words while you are "lessing" a document! (Using `-p<pattern>` also works!)
     - You can use this to find repeated words in text files!
@@ -50,8 +50,7 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         - Note: I used `||` because the first line exits with an error code, if this code succeeded I would've used `&&`. I would also change `2>` to `>`. Anyways, SEMICOLONS!!! **╰（‵□′）╯**
 - Source: [phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux)
 
----
-### Real-time `+F` Chicanery ⏱###
+## Real-time `+F` Chicanery ⏱ ##
 
 - `+F` can help you see your file update in real-time!
     - This can be used to keep an up to date log file to measure changes in real time, git!
@@ -87,8 +86,8 @@ Note to grader I forgot to read the instructions and now have 2 of my own exampl
         - Note it may take a second line input for the first line input to be updated. Also note that this cannot edit previous lines.
 - Source: (ChatGPT)[https://chat.openai.com/]
 
----
-### Editing Files `v` Final Boss 😈 ###
+
+## Editing Files `v` Final Boss 😈 ##
 
 - Although less is read-only, pressing v while in less opens vim.
     - Now I can fix that pesky semicolon in my hello program on a remote computer
