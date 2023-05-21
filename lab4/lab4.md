@@ -15,4 +15,4 @@
 6. **Commit** and push the resulting change to your Github account (you can pick any commit message!)
 
 ## Step 1: Hacking in 👨‍💻
-Keypresses: `s` `s` `h` `<Space>` `c` `s` `1` `5` `l` `s` `p` `2` `3` `r` `a` `@` `i` `e` `n` `g` `6` `.` `u` `c` `s` `d` `.` `e` `d` `u`
+Keypresses: `s` `s` `h` `<Space>` `c` `s` `1` `5` `l` `s` `p` `2` `3` `r` `a` `@` `i` `e` `n` `g` `6` `.` `u` `c` `s` `d` `.` `e` `d` `u` `<Enter>`
