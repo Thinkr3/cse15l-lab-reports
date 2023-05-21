@@ -16,3 +16,6 @@
 
 ## Step 1: Hacking in 👨‍💻
 Keypresses: `s` `s` `h` `<Space>` `c` `s` `1` `5` `l` `s` `p` `2` `3` `r` `a` `@` `i` `e` `n` `g` `6` `.` `u` `c` `s` `d` `.` `e` `d` `u` `<Enter>`
+- Note: since we have a ssh key for ieng6 there's no need to type in my password. Avert your prying eyes! 👀
+- We're in:
+    - <img src="img/login.png" height="300" width="500">
