@@ -29,7 +29,7 @@
 ## Step 3: Running Tests 🏃‍♂️
 **Keypresses:** `c` `d` `<Space>` `l` `a` `b` `7` `<Enter>`
 
-**Keypresses 2:** `b` `a` `s` `h` `<Space>` `t` `e` `s` `t` `.` `s` `h`
+**Keypresses 2:** `b` `a` `s` `h` `<Space>` `t` `e` `s` `t` `.` `s` `h` `<Enter>`
 - *Note*: `test.sh` is a script that compiles `ListExamples.java` and `ListExamplesTests.java`, then it runs the unit test file alongside the JUnit library.
 - We Failed?! (⊙_⊙)？
     - <img src="img/test-run.png" height="200" width="500">
@@ -47,18 +47,18 @@
     - <img src="img/edit.png" height="200" width="450">
 
 ## Step 5: Re-Running Tests 🏃‍♀️🏃‍♂️
-**Keypresses:** `<up-arrow>` `<up-arrow>`
+**Keypresses:** `<up-arrow>` `<up-arrow>` `<Enter>`
 - *Note*: Since Step 3 called `bash test.sh` we can use the command history to call it again without having to type it again. The first up arrow calls `vim ListExamples.java` and the second up arrow calls `bash test.sh`.
 - It's a success 🍾
     - <img src="img/success.png" height="200" width="500">
 
 ## Step 6: Commit and Launch 🚀
-**Keypresses:** `g` `i` `t` `<Space>` `a` `d` `d` `<Space>` `L` `<Tab>` `.` `j` `<Tab>`
+**Keypresses:** `g` `i` `t` `<Space>` `a` `d` `d` `<Space>` `L` `<Tab>` `.` `j` `<Tab>` `<Enter>`
 - *Note*: Using `<Tab>` again to autocomplete!
 
 **Keypresses 2:** `g` `i` `t` `<Space>` `c` `o` `m` `m` `i` `t` `<Space>` `-` `m` `<Space>` `"` `F` `i` `x` `<Space>` `L` `o` `o` `p` `"` `<Enter>`
 - *Note*: Using `-m` in my `git commit` to add a message in command line instead of editting the `COMMITMSG` file in the `.git` directory.
 
-**Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n`
+**Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n` `<Enter>`
 - We have lift off!
     - <img src="img/commit.png" height="350" width="500">
