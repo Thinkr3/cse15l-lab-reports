@@ -59,10 +59,10 @@
 
 ## Step 6: Commit and Launch 🚀
 **Keypresses:** `g` `i` `t` `<Space>` `a` `d` `d` `<Space>` `L` `<Tab>` `.` `j` `<Tab>` `<Enter>`
-- *Note*: Using `<Tab>` again to autocomplete!
+- *Note*: Using `<Tab>` again to autocomplete! `git add` adds files to your commit so you can choose to change one or several files at a time. 
 
 **Keypresses 2:** `g` `i` `t` `<Space>` `c` `o` `m` `m` `i` `t` `<Space>` `-` `m` `<Space>` `"` `F` `i` `x` `<Space>` `L` `o` `o` `p` `"` `<Enter>`
-- *Note*: Use `-m` in `git commit` to add a message in command line instead of editting the `COMMITMSG` file in the `.git` directory.
+- *Note*: `git commit` saves the added files onto the local branch. Use `-m` in `git commit` to add a message in command line instead of editting the `COMMITMSG` file in the `.git` directory. 
 
 **Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n` `<Enter>`
 - *Note*: `git push` uploads your files to github. Git push is configured to github since we ssh cloned from github. The parameters `origin` and `main` tell github that this code should replace the current version on github's main branch. 
