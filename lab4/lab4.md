@@ -61,4 +61,4 @@
 
 **Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n`
 - We have lift off!
-    - <img src="img/commit.png" height="500" width="400">
+    - <img src="img/commit.png" height="400" width="300">
