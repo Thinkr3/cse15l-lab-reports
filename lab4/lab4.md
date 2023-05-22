@@ -18,7 +18,7 @@
 **Keypresses:** `s` `s` `h` `<Space>` `c` `s` `1` `5` `l` `s` `p` `2` `3` `r` `a` `@` `i` `e` `n` `g` `6` `.` `u` `c` `s` `d` `.` `e` `d` `u` `<Enter>`
 - *Note*: since we have a ssh key for ieng6 there's no need to type in my password. Avert your prying eyes! 👀
 - Hacked in!
-    - <img src="img/login.png" height="400" width="500">
+    - <img src="img/login.png" height="200" width="600">
 
 ## Step 2: Cloning 🧪
 **Keypresses:** `g` `i` `t` `<Space>` `c` `l` `o` `n` `e` `<right-click>` `<Enter>`
@@ -61,4 +61,4 @@
 
 **Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n`
 - We have lift off!
-    - <img src="img/commit.png" height="200" width="500">
+    - <img src="img/commit.png" height="500" width="400">
