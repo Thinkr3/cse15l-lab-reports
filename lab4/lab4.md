@@ -24,7 +24,7 @@
 **Keypresses:** `g` `i` `t` `<Space>` `c` `l` `o` `n` `e` `<right-click>` `<Enter>`
 - *Note*: `<Right-click>` is the paste feature on bash, my clipboard had a link to my repository `git@github.com:Thinkr3/lab7.git`
 - Cloned!
-    - <img src="img/cloned.png" height="200" width="500">
+    - <img src="img/cloned.png" height="200" width="600">
 
 ## Step 3: Running Tests 🏃‍♂️
 **Keypresses:** `c` `d` `<Space>` `l` `a` `b` `7` `<Enter>`
@@ -44,7 +44,7 @@
 **Keypresses 3:** `e` `r` `2` `:` `w` `q` `<Enter>`
 - *Note*: It looks like our error has to do with index1 being updated in the while loop where index2 should be updated. I use `e` to get to the last letter of the `index1`, I use `r` to enter *Insert Mode* and replace the 1 with `2`. Since I used r, once the letter is replaced I get sent back to *Normal Mode*. Then I use `:wq` to save and exit Vim.
 - Safely leaving Vim (No need to buy a new PC!)
-    - <img src="img/edit.png" height="200" width="500">
+    - <img src="img/edit.png" height="200" width="450">
 
 ## Step 5: Re-Running Tests 🏃‍♀️🏃‍♂️
 **Keypresses:** `<up-arrow>` `<up-arrow>`
@@ -61,4 +61,4 @@
 
 **Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n`
 - We have lift off!
-    - <img src="img/success.png" height="200" width="500">
+    - <img src="img/commit.png" height="200" width="500">
