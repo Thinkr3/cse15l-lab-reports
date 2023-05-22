@@ -1,4 +1,4 @@
-# Lab 4 - Vim Keyboard Boogey 🕺
+# Lab 4 - Vim Keypress Race 🏁
 
 ## Overview
 ### Speedrun Setups 📐
@@ -57,8 +57,8 @@
 - *Note*: Using `<Tab>` again to autocomplete!
 
 **Keypresses 2:** `g` `i` `t` `<Space>` `c` `o` `m` `m` `i` `t` `<Space>` `-` `m` `<Space>` `"` `F` `i` `x` `<Space>` `L` `o` `o` `p` `"` `<Enter>`
-- *Note*: Using `-m` in my `git commit` to add a message in command line instead of editting the `COMMITMSG` file in the `.git` directory.
+- *Note*: Use `-m` in `git commit` to add a message in command line instead of editting the `COMMITMSG` file in the `.git` directory.
 
 **Keypresses 3:** `g` `i` `t` `<Space>` `p` `u` `s` `h` `<Space>` `o` `r` `i` `g` `i` `n` `<Space>` `m` `a` `i` `n` `<Enter>`
-- We have lift off!
+- We have lift off! 👨‍🚀
     - <img src="img/commit.png" height="350" width="500">
