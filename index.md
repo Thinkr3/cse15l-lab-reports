@@ -22,7 +22,7 @@ print("Hello World")
 ```
 
 ## Labs
-- [Lab 1 - Markdown, URLs, Paths, and the Filesystem](https://thinkr3.github.io/cse15l-lab-reports/lab1.html) 
+- [Lab 1 - Markdown, URLs, Paths, and the Filesystem](https://thinkr3.github.io/cse15l-lab-reports/lab1/lab1.html) 
 - [Lab 2 - Servers and Bugs](https://thinkr3.github.io/cse15l-lab-reports/lab2/lab2.html) 
 - [Lab 3 - More about Less](https://thinkr3.github.io/cse15l-lab-reports/lab3/lab3.html) 
 - [Lab 4 - Vim Keypress Race](https://thinkr3.github.io/cse15l-lab-reports/lab4/lab4.html) 
