@@ -36,7 +36,8 @@
         - Buggy Code
         - ![Image](img/before.png)
         - A snippet of grade to show what the parameters are doing
-        - ![Image](img/grade.png)
+        - ![Image](img/grade1.png)
+        - ![Image](img/grade2.png)
     - The full command line (or lines) you ran to trigger the bug
         - `bash grade.sh ListExamples.java`
     - A description of what to edit to fix the bug
