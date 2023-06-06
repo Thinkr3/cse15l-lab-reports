@@ -33,11 +33,13 @@
             - `ListExamples.java` (Main Culprit 🐜: is the bug)
             - `TestListExamples.java` (Detective 🔎: found the bug)
     - The contents of each file before fixing the bug
-        - Buggy Code
-        - ![Image](img/before.png)
-        - A snippet of grade to show what the parameters are doing
-        - ![Image](img/grade1.png)
-        - ![Image](img/grade2.png)
+        - Buggy Code in `ListExamples.java`
+            - ![Image](img/before.png)
+        - Test Cases in `TestListExamples.java`
+            - ![Image](img/tests.png)
+        - A `grade.sh` to show what the parameters are doing
+            - <img src="img/grade1.png" height="600" width="300">
+            - <img src="img/grade2.png" height="600" width="300">
     - The full command line (or lines) you ran to trigger the bug
         - `bash grade.sh ListExamples.java`
     - A description of what to edit to fix the bug
