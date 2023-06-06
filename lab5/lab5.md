@@ -3,13 +3,14 @@
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. 
 ![Image](img/P1.png)
 ![Image](img/P2.png)
+![Image](img/P3.png)
 
 2. A response from a TA asking a leading question or suggesting a command to try.
 ![Image](img/A1.png)
 
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
     - Changed the implemetation of the filter method to not include nulls in lists by opting to use ArrayLists instead of arrays for dynamic sizing.
-    - This bug was caused by the fact that the array was declared as the size of the List but filter returned less matches than the size of list. When filtering out items that did not match StringChecker, the item in the array remained null becuase the array could not be resized to accomadate less items. So when packaged as a List and sent to the user, there would be nulls in place of the non-matching strings.
+    - This bug was caused by the fact that the array was declared as the size of the `list` but `filter()` returned less matches than the size of `list`. When filtering out items that did not match `StringChecker`, the item in the array remained **null** becuase the array could not be resized to accomadate less items. So when packaged as a List and sent to the user, there would be nulls in place of the non-matching strings.
     - Buggy Code 🐛
         - ![Image](img/before.png)
     - Here is an image of the fixed code 🔧
